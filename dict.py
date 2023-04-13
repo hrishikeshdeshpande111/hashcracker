@@ -1,5 +1,5 @@
 import hashlib
-import time
+
 
 def dehash(hash, dict_file):
     # Open the dictionary file and read in the words
@@ -22,9 +22,8 @@ def dehash(hash, dict_file):
 target_hash = 'dcd6732d222b9bc8ee3352545285c6377efdf417'
 dict_file = 'D:/HTML-CSS/seltool/dict.txt'
 
-start_time = time.time()
 password = dehash(target_hash, dict_file)
-end_time = time.time()
+
 
 if password:
     print(f"Password found: {password}")
