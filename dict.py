@@ -19,7 +19,7 @@ def dehash(hash, dict_file):
     return None
 
 
-target_hash = 'dcd6732d222b9bc8ee3352545285c6377efdf417'
+target_hash = '0ab613316a8825c9e9d8530fdc6898c76c2fc577'
 dict_file = 'D:/HTML-CSS/seltool/dict.txt'
 
 password = dehash(target_hash, dict_file)
